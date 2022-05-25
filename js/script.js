@@ -288,3 +288,7 @@ $("#remove-tasks").on("click", function() {
 
 // load tasks for the first time
 loadTasks();
+
+setTimeout(function() {
+  alert("This message happens after 5 seconds!");
+}, 5000);
